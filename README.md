@@ -1,5 +1,5 @@
 # FitZone - Fitness Typescript, Vite and Tailwind landing page.
-# By Kalcha
+# By Kalcha - Gabriel Maza
 
 # To start use the following command
 
