@@ -1,4 +1,4 @@
-import Logo from "@/assets/logo-nav-dark.svg";
+import Logo from "@/assets/logo-nav.svg";
 import HText from "@/shared/HText";
 import { PlusIcon } from "@heroicons/react/24/solid";
 import AnchorLink from "react-anchor-link-smooth-scroll";
