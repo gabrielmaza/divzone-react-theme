@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { SelectedPageEnum } from "@/shared/typesEnum";
 import Home from "@/scenes/home"
 import Benefits from "@/scenes/benefits"
-import OurClasses from "./scenes/ourClasses";
+import Categories from "./scenes/categories";
 import ContactUs from "./scenes/contactUs";
 import Footer from "./scenes/footer";
 
@@ -34,7 +34,7 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
       <Benefits setSelectedPage={setSelectedPage} />
-      <OurClasses setSelectedPage={setSelectedPage} />
+      <Categories setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
       <Footer />
     </div>

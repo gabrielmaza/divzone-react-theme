@@ -43,7 +43,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     }}
                 >
                     <HText>
-                        <span className="text-primary-100">JOIN NOW</span> TO GET IN SHAPE
+                        <span className="text-primary-100">GOT A QUESTION? </span> CONTACT US NOW!
                     </HText>
                     <p className="my-5">
                         Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
@@ -55,7 +55,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 {/* FORM AND IMAGE */}
                 <div className="mt-10 justify-between gap-8 md:flex">
                     <motion.div
-                        className="mt-10 basis-3/5 md:mt-0"
+                        className="mt-10 basis-3/5 md:mt-0 relative z-10"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
@@ -68,7 +68,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                         <form
                             target="_blank"
                             onSubmit={onSubmit}
-                            action="https://formsubmit.co/64a414814316d5948eb4cd675f13bb23"
+                            action="https://formsubmit.co/your@email.com"
                             method="POST"
                         >
                             {errors.name && (

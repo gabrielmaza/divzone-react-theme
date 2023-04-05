@@ -1,15 +1,46 @@
-# FitZone - Fitness Typescript, Vite and Tailwind landing page.
-# By Kalcha - Gabriel Maza
+# DivZone
+## Typescript, Vite and Tailwind css landing page.
+### By Kalcha
 
-# To start use the following command
-
+## To start use the following command
 cd fitness-typescript
 npm install
 npm run dev
 
-# Contact form
+## Dependencies
+1. heroicons
+2. framer-motion
+3. react-anchor-link-smooth-scroll
+4. react-dom
+5. react-hook-form
 
+## Dev Dependencies
+1. types/node
+2. types/react
+3. types/react-anchor-link-smooth-scroll
+4. types/react-dom
+5. vitejs/plugin-react
+6. autoprefixer
+7. postcss
+8. prettier
+9. prettier-plugin-tailwind
+10. tailwindcss
+11. typescript
+12. vite
+
+## Colors, font styles, background images and screen breakpoints
+Go to tailwind.config.cjs
+
+## Contact form
 To activate the form, go to the component /scenes/contactUs and replace your@email.com with your contact email address in the action attribute of the form tag, where you want the messages sent from the form to be directed to. Once you have done this and the website is online, send a test message from the form. Then go to your email and activate the form. Done!
 
-# Demo
+## Demo
 Check the live demo here 👉️ https://fitzone-typescript.pages.dev/
+
+## Support
+kalchdesign@gmail.com
+
+## Credits
+- Preview images: Kalcha Software, pngegg.com and pngwing.com
+- Fonts: “DM Sans” and “Montserrat” free google font
+- Free Font Based Icons by Heroicons

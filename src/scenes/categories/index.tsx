@@ -11,35 +11,39 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
     {
-        name: "Weight Training Classes",
+        name: "Refrigerators and Freezers",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: image1,
     },
     {
-        name: "Yoga Classes",
+        name: "Washers and Dryers",
+        description:
+            "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim venia..",
         image: image2,
     },
     {
-        name: "Ab Core Classes",
+        name: "Ranges and Ovens",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: image3,
     },
     {
-        name: "Adventure Classes",
+        name: "Small Appliances",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: image4,
     },
     {
-        name: "Fitness Classes",
+        name: "Air Conditioning and Heating",
+        description:
+            "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
         image: image5,
     },
     {
-        name: "Training Classes",
+        name: "Home Audio and Video",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: image6,
     },
 ];
@@ -48,11 +52,11 @@ type Props = {
     setSelectedPage: (value: SelectedPageEnum) => void;
 };
 
-const OurClasses = ({ setSelectedPage }: Props) => {
+const Categories = ({ setSelectedPage }: Props) => {
     return (
-        <section id="ourclasses" className="w-full bg-gray-100 py-40">
+        <section id="categories" className="w-full bg-gray-100 py-40">
             <motion.div
-                onViewportEnter={() => setSelectedPage(SelectedPageEnum.OurClasses)}
+                onViewportEnter={() => setSelectedPage(SelectedPageEnum.Categories)}
             >
                 <motion.div
                     className="mx-auto w-5/6"
@@ -66,7 +70,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
                     }}
                 >
                     <div className="md:w-3/5">
-                        <HText>OUR CLASSES</HText>
+                        <HText>OUR MAIN PRODUCT CATEGORIES</HText>
                         <p className="py-5">
                             Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
                             tellus quam porttitor. Mauris velit euismod elementum arcu neque
@@ -92,4 +96,4 @@ const OurClasses = ({ setSelectedPage }: Props) => {
     );
 };
 
-export default OurClasses;
+export default Categories;

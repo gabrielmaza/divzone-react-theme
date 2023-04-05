@@ -3,9 +3,9 @@ import useMediaQuery from '@/hooks/useMediaQ';
 import ActionButton from '@/shared/ActionButton';
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
+import Sponsor1 from "@/assets/logos-1.png";
+import Sponsor2 from "@/assets/logos-2.png";
+import Sponsor3 from "@/assets/logos-3.png";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { motion } from 'framer-motion';
 
@@ -43,13 +43,16 @@ const Home = ({ setSelectedPage }: Props) => {
                         }}
                     >
                         <div className="relative">
-                            <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                                <img src={HomePageText} alt="Home page text" />
+                            <div className="before:absolute before:-top-40 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+                                <div className="text-center flex flex-col justify-center">
+                                    <img src={HomePageText} alt="Home page text" />
+                                    <span className="text-primary-300 font-light text-[3.2rem] leading-[3rem]">Always overcome.</span>
+                                </div>
                             </div>
                         </div>
-                        <p className="mt-8 text-sm">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptas iusto quos aliquam est. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptas iusto quos aliquam est.
-                        </p>
+                        <h1 className="mt-8 text-xl">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </h1>
                     </motion.div>
                     {/* Action buttons */}
                     <motion.div
@@ -85,11 +88,11 @@ const Home = ({ setSelectedPage }: Props) => {
             {/* SPONSORS */}
             {isAboveMediumScreens && (
                 <div className="h-[150px] w-full bg-gray-100 py-10">
-                    <div className="mx-auto w-5/6">
-                        <div className="flex w-3/5 items-center justify-between gap-8">
-                            <img alt="redbull-sponsor" src={SponsorRedBull} />
-                            <img alt="forbes-sponsor" src={SponsorForbes} />
-                            <img alt="fortune-sponsor" src={SponsorFortune} />
+                    <div className="mx-auto w-5/6 h-full">
+                        <div className="mx-auto flex w-3/5 items-center justify-between gap-8 h-full">
+                            <img alt="redbull-sponsor" src={Sponsor1} />
+                            <img alt="forbes-sponsor" src={Sponsor2} />
+                            <img alt="fortune-sponsor" src={Sponsor3} />
                         </div>
                     </div>
                 </div>

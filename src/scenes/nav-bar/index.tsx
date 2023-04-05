@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import Logo from "@/assets/Logo.png";
+import Logo from "@/assets/logo-nav.svg";
 import Link from "./Link";
 import { SelectedPageEnum } from "@/shared/typesEnum";
 import useMediaQuery from "@/hooks/useMediaQ";
@@ -23,14 +23,14 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: IndexProps) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* Left side */}
-            <img src={Logo} alt="Logo" />
+            <img src={Logo} alt="Logo" className="h-5" />
             {/* Right side */}
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
                 <div className={`${flexBetween} gap-8 text-sm`}>
                   <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Home" />
                   <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Benefits" />
-                  <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Our Classes" />
+                  <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Categories" />
                   <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Contact Us" />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
@@ -61,7 +61,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: IndexProps) => {
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
             <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Home" />
             <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Benefits" />
-            <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Our Classes" />
+            <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Categories" />
             <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Contact Us" />
           </div>
         </div>

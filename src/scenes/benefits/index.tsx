@@ -1,27 +1,27 @@
 import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
 import { BenefitType, SelectedPageEnum } from "@/shared/typesEnum";
-import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
+import { CheckCircleIcon, LifebuoyIcon, PlusCircleIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 import Benefit from "./Benefit";
 
 const benefits: Array<BenefitType> = [
     {
-        icon: <HomeModernIcon className="h-6 w-6" />,
-        title: "State of the Art Facilities",
+        icon: <CheckCircleIcon className="h-6 w-6" />,
+        title: "Service quality",
         description:
             "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
     },
     {
-        icon: <UserGroupIcon className="h-6 w-6" />,
-        title: "100's of Diverse Classes",
+        icon: <LifebuoyIcon className="h-6 w-6" />,
+        title: "Support 24/7",
         description:
             "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
     },
     {
-        icon: <AcademicCapIcon className="h-6 w-6" />,
-        title: "Expert and Pro Trainers",
+        icon: <PlusCircleIcon className="h-6 w-6" />,
+        title: "Value-added",
         description:
             "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
     },
@@ -59,11 +59,9 @@ const index = ({ setSelectedPage }: Props) => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <HText>MORE THAN JUST GYM.</HText>
+                    <HText>MORE THAN JUST PRODUCTS</HText>
                     <p className="my-5 text-sm">
-                        We provide world class fitness equipment, trainers and classes to
-                        get you to your ultimate fitness goals with ease. We provide true
-                        care into each and every member.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore animi molestias excepturi quibusdam iure temporibus saepe tenetur sunt ea suscipit aliqui.
                     </p>
                 </motion.div>
                 {/* BENEFITS */}
@@ -110,7 +108,7 @@ const index = ({ setSelectedPage }: Props) => {
                                 >
                                     <HText>
                                         MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                                        <span className="text-primary-100">FIT</span>
+                                        <span className="text-primary-100">QUALITY PRODUCTS</span>
                                     </HText>
                                 </motion.div>
                             </div>
@@ -144,7 +142,7 @@ const index = ({ setSelectedPage }: Props) => {
                         </motion.div>
 
                         {/* BUTTON */}
-                        <div className="relative mt-16">
+                        <div className="relative mt-16 z-10">
                             <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
                                 <ActionButton setSelectedPage={setSelectedPage}>
                                     Join Now
