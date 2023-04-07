@@ -1,7 +1,7 @@
 export enum SelectedPageEnum {
   Home = "home",
   Benefits = "benefits",
-  Categories = "categories",
+  Services = "services",
   ContactUs = "contactus"
 }
 
@@ -11,7 +11,7 @@ export interface BenefitType {
   description: string;
 }
 
-export interface ClassType {
+export interface CategoryType {
   name: string;
   description?: string;
   image: string;

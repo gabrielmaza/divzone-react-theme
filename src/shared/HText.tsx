@@ -1,11 +1,12 @@
 
 type Props = {
+    className?: string;
     children: React.ReactNode;
 }
 
-const HText = ({ children }: Props) => {
+const HText = ({ className, children }: Props) => {
     return (
-        <h1 className="basis-3/5 font-montserrat text-3xl font-bold">{children}</h1>
+        <h1 className={`basis-3/5 font-montserrat text-3xl font-bold ${className}`}>{children}</h1>
     )
 }
 

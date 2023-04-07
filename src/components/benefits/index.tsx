@@ -9,7 +9,7 @@ import Benefit from "./Benefit";
 const benefits: Array<BenefitType> = [
     {
         icon: <CheckCircleIcon className="h-6 w-6" />,
-        title: "Service quality",
+        title: "Quality",
         description:
             "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
     },
@@ -42,7 +42,7 @@ const index = ({ setSelectedPage }: Props) => {
     return (
         <section
             id="benefits"
-            className="mx-auto min-h-full w-5/6 py-20"
+            className="mx-auto min-h-full w-5/6 pt-24 pb-32"
         >
             <motion.div
                 onViewportEnter={() => setSelectedPage(SelectedPageEnum.Benefits)}
@@ -59,14 +59,14 @@ const index = ({ setSelectedPage }: Props) => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <HText>MORE THAN JUST PRODUCTS</HText>
+                    <HText>MORE THAN JUST <span className="text-primary-100">SERVICES</span></HText>
                     <p className="my-5 text-sm">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore animi molestias excepturi quibusdam iure temporibus saepe tenetur sunt ea suscipit aliqui.
                     </p>
                 </motion.div>
                 {/* BENEFITS */}
                 <motion.div
-                    className="mt-5 items-center justify-between gap-8 md:flex"
+                    className="mt-5 items-center justify-between gap-1 md:flex"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
@@ -95,7 +95,7 @@ const index = ({ setSelectedPage }: Props) => {
                     <div>
                         {/* TITLE */}
                         <div className="relative">
-                            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+                            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-arrowRight before:w-16 before:rotate-45 before:opacity-10">
                                 <motion.div
                                     initial="hidden"
                                     whileInView="visible"
@@ -108,7 +108,7 @@ const index = ({ setSelectedPage }: Props) => {
                                 >
                                     <HText>
                                         MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                                        <span className="text-primary-100">QUALITY PRODUCTS</span>
+                                        <span className="text-primary-100">QUALITY SERVICES</span>
                                     </HText>
                                 </motion.div>
                             </div>
@@ -143,7 +143,7 @@ const index = ({ setSelectedPage }: Props) => {
 
                         {/* BUTTON */}
                         <div className="relative mt-16 z-10">
-                            <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+                            <div className="before:absolute before:-bottom-20 before:right-60 before:z-[-1] before:content-sparkles">
                                 <ActionButton setSelectedPage={setSelectedPage}>
                                     Join Now
                                 </ActionButton>

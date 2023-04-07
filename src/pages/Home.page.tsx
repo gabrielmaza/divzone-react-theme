@@ -1,13 +1,13 @@
-import Navbar from "@/scenes/nav-bar";
 import { useEffect, useState } from "react";
 import { SelectedPageEnum } from "@/shared/typesEnum";
-import Home from "@/scenes/home"
-import Benefits from "@/scenes/benefits"
-import Categories from "./scenes/categories";
-import ContactUs from "./scenes/contactUs";
-import Footer from "./scenes/footer";
+import Navbar from "@/components/nav-bar";
+import Main from "@/components/main"
+import Benefits from "@/components/benefits"
+import Services from "@/components/services";
+import ContactUs from "../components/contactUs";
+import Footer from "../components/footer";
 
-function App() {
+function Home() {
 
   const [selectedPage, setSelectedPage] = useState<SelectedPageEnum>(SelectedPageEnum.Home)
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true)
@@ -26,19 +26,19 @@ function App() {
 
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-950">
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <Home setSelectedPage={setSelectedPage} />
+      <Main setSelectedPage={setSelectedPage} />
       <Benefits setSelectedPage={setSelectedPage} />
-      <Categories setSelectedPage={setSelectedPage} />
+      <Services setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
       <Footer />
     </div>
   )
 }
 
-export default App;
+export default Home;
