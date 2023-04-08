@@ -11,8 +11,7 @@ export interface BenefitType {
   description: string;
 }
 
-export interface CategoryType {
+export interface ServiceType {
   name: string;
   description?: string;
-  image: string;
 }

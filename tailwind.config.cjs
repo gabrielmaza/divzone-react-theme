@@ -18,8 +18,6 @@ module.exports = {
         "secondary-500": "#5a0e52",
       },
       backgroundImage: (theme) => ({
-        "gradient-yellowred":
-          "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
         "mobile-home": "url('./assets/HomePageGraphic.png')",
       }),
       fontFamily: {
@@ -28,10 +26,9 @@ module.exports = {
       },
       content: {
         backgroundSparkles: "url('./assets/backgroundSparkles.png')",
-        arrowRight: "url('./assets/Arrow.svg')",
-        cuttingEdge: "url('./assets/CuttingEdge.svg')",
+        arrowRight: "url('./assets/svg/Arrow.svg')",
+        cuttingEdge: "url('./assets/svg/CuttingEdge.svg')",
         sparkles: "url('./assets/SingleBgSparkles.png')",
-        circles: "url('./assets/Circles.png')",
       },
     },
     screens: {

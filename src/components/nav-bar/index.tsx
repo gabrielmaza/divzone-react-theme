@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import Logo from "@/assets/logo-nav.svg";
+import Logo from "@/assets/svg/logo-nav.svg";
 import Link from "./Link";
 import { SelectedPageEnum } from "@/shared/typesEnum";
 import useMediaQuery from "@/hooks/useMediaQ";

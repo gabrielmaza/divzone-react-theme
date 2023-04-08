@@ -4,8 +4,8 @@ import Navbar from "@/components/nav-bar";
 import Main from "@/components/main"
 import Benefits from "@/components/benefits"
 import Services from "@/components/services";
-import ContactUs from "../components/contactUs";
-import Footer from "../components/footer";
+import ContactUs from "@/components/contact-us";
+import Footer from "@/components/footer";
 
 function Home() {
 

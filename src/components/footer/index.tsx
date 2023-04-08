@@ -1,6 +1,6 @@
-import Logo from "@/assets/logo-nav.svg";
+import Logo from "@/assets/svg/logo-nav.svg";
 import HText from "@/shared/HText";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+import { ArrowTopRightOnSquareIcon, LinkIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 
 const Footer = () => {
@@ -46,13 +46,19 @@ const Footer = () => {
                     <p>© DivZone All Rights Reserved.</p>
                 </div>
                 <div className="mt-16 basis-1/4 md:mt-0 flex flex-col gap-4">
-                    <h4 className="font-bold">Links</h4>
+                    <div className="flex items-center gap-2">
+                        <LinkIcon className="w-5 h-5" />
+                        <h4 className="font-bold">Links</h4>
+                    </div>
                     <a href="#" title="Footer link" className="hover:text-primary-100 transition duration-500">Massa orci senectus</a>
                     <a href="#" title="Footer link" className="hover:text-primary-100 transition duration-500">Et gravida id et etiam</a>
                     <a href="#" title="Footer link" className="hover:text-primary-100 transition duration-500">Ullamcorper vivamus</a>
                 </div>
                 <div className="mt-16 basis-1/4 md:mt-0">
-                    <h4 className="font-bold">Contact Us</h4>
+                    <div className="flex items-center gap-2">
+                        <PhoneIcon className="w-5 h-5" />
+                        <h4 className="font-bold">Contact Us</h4>
+                    </div>
                     <p className="my-5">Tempus metus mattis risus volutpat egestas.</p>
                     <p>(333)425-6825</p>
                 </div>

@@ -1,7 +1,7 @@
 import { SelectedPageEnum } from '@/shared/typesEnum';
 import useMediaQuery from '@/hooks/useMediaQ';
 import ActionButton from '@/shared/ActionButton';
-import HomePageText from "@/assets/HomePageText.svg";
+import HomePageText from "@/assets/svg/HomePageText.svg";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { motion } from 'framer-motion';
@@ -99,7 +99,8 @@ const Main = ({ setSelectedPage }: Props) => {
                         </svg>
                         <svg className='w-6 h-auto mx-auto md:mx-0 block sm:hidden'
                             xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 48.31 24.15"><defs><style></style></defs><g><path className='fill-secondary-50' d="m48.31,24.15H0c6.67,0,12.08-5.4,12.08-12.07S6.67,0,0,0h48.31c-6.67,0-12.08,5.41-12.08,12.08s5.41,12.07,12.08,12.07Z" /></g>
+                            viewBox="0 0 48.31 24.15">
+                            <g><path className='fill-secondary-50' d="m48.31,24.15H0c6.67,0,12.08-5.4,12.08-12.07S6.67,0,0,0h48.31c-6.67,0-12.08,5.41-12.08,12.08s5.41,12.07,12.08,12.07Z" /></g>
                         </svg>
                         <div className="relative flex flex-col justify-center w-full xs:w-2/3 md:w-1/3 h-[120px] p-4 mx-auto rounded-xl border border-secondary-50 bg-secondary-50">
                             <div className='absolute top-3 sm:top-[-20px] left-[-20px] sm:left-4 flex items-center justify-center w-10 h-10 border rounded-xl border-secondary-50 bg-gray-800'>
@@ -115,7 +116,8 @@ const Main = ({ setSelectedPage }: Props) => {
                         </svg>
                         <svg className='w-6 h-auto mx-auto md:mx-0 block sm:hidden'
                             xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 48.31 24.15"><defs><style></style></defs><g><path className='fill-secondary-50' d="m48.31,24.15H0c6.67,0,12.08-5.4,12.08-12.07S6.67,0,0,0h48.31c-6.67,0-12.08,5.41-12.08,12.08s5.41,12.07,12.08,12.07Z" /></g>
+                            viewBox="0 0 48.31 24.15">
+                            <g><path className='fill-secondary-50' d="m48.31,24.15H0c6.67,0,12.08-5.4,12.08-12.07S6.67,0,0,0h48.31c-6.67,0-12.08,5.41-12.08,12.08s5.41,12.07,12.08,12.07Z" /></g>
                         </svg>
                         <div className="relative flex flex-col justify-center w-full xs:w-2/3 md:w-1/3 h-[120px] p-4 mx-auto rounded-xl border border-secondary-50 bg-secondary-50">
                             <div className='absolute top-3 sm:top-[-20px] left-[-20px] sm:left-4 flex items-center justify-center w-10 h-10 border rounded-xl border-secondary-50 bg-gray-800'>

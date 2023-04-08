@@ -1,11 +1,10 @@
 type Props = {
     name: string;
     description?: string;
-    image: string;
     background?: "secondary-100" | "primary-100"
 };
 
-const CategoryItem = ({ name, description, image }: Props) => {
+const ServiceItem = ({ name, description }: Props) => {
     const overlayStyles = `p-5 absolute z-30 flex
     h-full w-full flex-col items-center justify-center
     whitespace-normal bg-primary-500 text-center text-white
@@ -31,4 +30,4 @@ const CategoryItem = ({ name, description, image }: Props) => {
     );
 };
 
-export default CategoryItem;
+export default ServiceItem;
