@@ -2,6 +2,9 @@
 ## Typescript, Vite and Tailwind css landing page.
 ### By Kalcha
 
+## Documentation 👇
+*https://divzone-typescript-doc.vercel.app/docs/intro*
+
 ## To start use the following command
 cd fitness-typescript
 npm install
@@ -35,7 +38,7 @@ Go to tailwind.config.cjs
 To activate the form, go to the component /components/contactUs and replace your@email.com with your contact email address in the action attribute of the form tag, where you want the messages sent from the form to be directed to. Once you have done this and the website is online, send a test message from the form. Then go to your email and activate the form. Done!
 
 ## Demo
-Check the live demo here 👉️ https://divzone-typescript.vercel.app/
+Check the live demo here 👉️ *https://divzone-typescript.vercel.app/*
 
 ## Support
 help.kalcha@gmail.com
