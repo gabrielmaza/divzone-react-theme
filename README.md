@@ -38,7 +38,7 @@ To activate the form, go to the component /components/contactUs and replace your
 Check the live demo here 👉️ https://fitzone-typescript.pages.dev/
 
 ## Support
-kalchdesign@gmail.com
+help.kalcha@gmail.com
 
 ## Credits
 - Preview images: Kalcha Software, pngegg.com and pngwing.com

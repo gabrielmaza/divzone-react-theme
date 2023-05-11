@@ -4,7 +4,6 @@ import Logo from "@/assets/svg/logo-nav.svg";
 import Link from "./Link";
 import { SelectedPageEnum } from "@/shared/typesEnum";
 import useMediaQuery from "@/hooks/useMediaQ";
-import ActionButton from "@/shared/ActionButton";
 import { motion } from "framer-motion";
 
 type IndexProps = {
