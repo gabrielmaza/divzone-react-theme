@@ -6,7 +6,7 @@
 **https://divzone-typescript-doc.vercel.app/docs/intro**
 
 ## Live demo 👇
-**https://divzone-typescript.vercel.app**
+**https://div.zone**
 
 ## To start use the following command
 cd fitness-typescript
