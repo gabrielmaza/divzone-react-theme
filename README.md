@@ -1,7 +1,6 @@
-# DivZone
-## Typescript, Vite and Tailwind css landing page.
-### By Kalcha
-
+# DivZone React Theme
+## React, Vite, Typescript and Tailwind css landing page theme.
+### By DivZone
 ## Docs 👇
 **https://divzone-typescript-doc.vercel.app/docs/intro**
 
