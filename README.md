@@ -2,8 +2,11 @@
 ## Typescript, Vite and Tailwind css landing page.
 ### By Kalcha
 
-## Documentation 👇
+## Docs 👇
 **https://divzone-typescript-doc.vercel.app/docs/intro**
+
+## Live demo 👇
+**https://divzone-typescript.vercel.app**
 
 ## To start use the following command
 cd fitness-typescript
